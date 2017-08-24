@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E90F96C1E24D6BA003D6784 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E90F9671E24D6B9003D6784 /* QRCode.m */; };
+		4E90F96D1E24D6BA003D6784 /* QRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E90F9691E24D6B9003D6784 /* QRCodeView.m */; };
+		4E90F96E1E24D6BA003D6784 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E90F96B1E24D6BA003D6784 /* UIImage+Helper.m */; };
+		4EA190F71E961E0300FC7940 /* LSScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA190F61E961E0300FC7940 /* LSScan.m */; };
+		4EA190FC1E961E4300FC7940 /* QMYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA190F91E961E4300FC7940 /* QMYViewController.m */; };
+		4EA190FD1E961E4300FC7940 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA190FB1E961E4300FC7940 /* UIViewExt.m */; };
+		4EA191001E961E8300FC7940 /* LSScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA190FF1E961E8300FC7940 /* LSScanView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E48F5B21DF7F73C009D92C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E48F5B41DF7F73C009D92C4 /* libRCTLSScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTLSScan.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E90F9661E24D6B9003D6784 /* QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		4E90F9671E24D6B9003D6784 /* QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		4E90F9681E24D6B9003D6784 /* QRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeView.h; sourceTree = "<group>"; };
+		4E90F9691E24D6B9003D6784 /* QRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeView.m; sourceTree = "<group>"; };
+		4E90F96A1E24D6B9003D6784 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		4E90F96B1E24D6BA003D6784 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		4EA190F51E961E0300FC7940 /* LSScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScan.h; sourceTree = "<group>"; };
+		4EA190F61E961E0300FC7940 /* LSScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSScan.m; sourceTree = "<group>"; };
+		4EA190F81E961E4300FC7940 /* QMYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMYViewController.h; sourceTree = "<group>"; };
+		4EA190F91E961E4300FC7940 /* QMYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMYViewController.m; sourceTree = "<group>"; };
+		4EA190FA1E961E4300FC7940 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		4EA190FB1E961E4300FC7940 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		4EA190FE1E961E8300FC7940 /* LSScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScanView.h; sourceTree = "<group>"; };
+		4EA190FF1E961E8300FC7940 /* LSScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSScanView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E48F5B11DF7F73C009D92C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E48F5AB1DF7F73C009D92C4 = {
+			isa = PBXGroup;
+			children = (
+				4EA190F41E961DDA00FC7940 /* LSScan */,
+				4E90F9651E24D6B9003D6784 /* QRCode */,
+				4E48F5B51DF7F73C009D92C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E48F5B51DF7F73C009D92C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E48F5B41DF7F73C009D92C4 /* libRCTLSScan.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E90F9651E24D6B9003D6784 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				4E90F9661E24D6B9003D6784 /* QRCode.h */,
+				4E90F9671E24D6B9003D6784 /* QRCode.m */,
+				4E90F9681E24D6B9003D6784 /* QRCodeView.h */,
+				4E90F9691E24D6B9003D6784 /* QRCodeView.m */,
+				4E90F96A1E24D6B9003D6784 /* UIImage+Helper.h */,
+				4E90F96B1E24D6BA003D6784 /* UIImage+Helper.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		4EA190F41E961DDA00FC7940 /* LSScan */ = {
+			isa = PBXGroup;
+			children = (
+				4EA190F51E961E0300FC7940 /* LSScan.h */,
+				4EA190F61E961E0300FC7940 /* LSScan.m */,
+				4EA190FE1E961E8300FC7940 /* LSScanView.h */,
+				4EA190FF1E961E8300FC7940 /* LSScanView.m */,
+				4EA190F81E961E4300FC7940 /* QMYViewController.h */,
+				4EA190F91E961E4300FC7940 /* QMYViewController.m */,
+				4EA190FA1E961E4300FC7940 /* UIViewExt.h */,
+				4EA190FB1E961E4300FC7940 /* UIViewExt.m */,
+			);
+			path = LSScan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E48F5B31DF7F73C009D92C4 /* RCTLSScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E48F5BD1DF7F73C009D92C4 /* Build configuration list for PBXNativeTarget "RCTLSScan" */;
+			buildPhases = (
+				4E48F5B01DF7F73C009D92C4 /* Sources */,
+				4E48F5B11DF7F73C009D92C4 /* Frameworks */,
+				4E48F5B21DF7F73C009D92C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTLSScan;
+			productName = RCTLSScan;
+			productReference = 4E48F5B41DF7F73C009D92C4 /* libRCTLSScan.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E48F5AC1DF7F73C009D92C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Dowin;
+				TargetAttributes = {
+					4E48F5B31DF7F73C009D92C4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E48F5AF1DF7F73C009D92C4 /* Build configuration list for PBXProject "RCTLSScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E48F5AB1DF7F73C009D92C4;
+			productRefGroup = 4E48F5B51DF7F73C009D92C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E48F5B31DF7F73C009D92C4 /* RCTLSScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E48F5B01DF7F73C009D92C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA190FC1E961E4300FC7940 /* QMYViewController.m in Sources */,
+				4EA190FD1E961E4300FC7940 /* UIViewExt.m in Sources */,
+				4EA191001E961E8300FC7940 /* LSScanView.m in Sources */,
+				4E90F96E1E24D6BA003D6784 /* UIImage+Helper.m in Sources */,
+				4E90F96D1E24D6BA003D6784 /* QRCodeView.m in Sources */,
+				4E90F96C1E24D6BA003D6784 /* QRCode.m in Sources */,
+				4EA190F71E961E0300FC7940 /* LSScan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E48F5BB1DF7F73C009D92C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E48F5BC1DF7F73C009D92C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E48F5BE1DF7F73C009D92C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E48F5BF1DF7F73C009D92C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E48F5AF1DF7F73C009D92C4 /* Build configuration list for PBXProject "RCTLSScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E48F5BB1DF7F73C009D92C4 /* Debug */,
+				4E48F5BC1DF7F73C009D92C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E48F5BD1DF7F73C009D92C4 /* Build configuration list for PBXNativeTarget "RCTLSScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E48F5BE1DF7F73C009D92C4 /* Debug */,
+				4E48F5BF1DF7F73C009D92C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E48F5AC1DF7F73C009D92C4 /* Project object */;
+}

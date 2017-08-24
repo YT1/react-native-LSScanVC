@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0551f261-154f-7d40-ba59-b6e12d488450++240",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0551f261-154f-7d40-ba59-b6e12d488450++240" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0551f261-154f-7d40-ba59-b6e12d488450++240" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA95A8FF-93E3-448F-8ADE-325ECA287C17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0551f261-154f-7d40-ba59-b6e12d488450++240" : "node_modules\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTLSScan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "react-native-LSScanVC\/ios\/RCTLSScan\/RCTLSScan.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.dev.dowinhy.net\/svn\/app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0551f261-154f-7d40-ba59-b6e12d488450++240"
+    }
+  ]
+}
